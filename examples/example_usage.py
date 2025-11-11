@@ -22,7 +22,7 @@ if __name__ == "__main__":
             element_ratios={"Ti": 0.7, "Al": 0.3} 
         )
         
-        random_structure.save_lammps_data("test_structure.data", positions, box_size, atom_types, element_types)
+        random_structure.save_lammps_data("examples/test_structure.data", positions, box_size, atom_types, element_types)
         
         # 打印一些统计信息
         actual_density = len(positions) / (box_size[0] * box_size[1] * box_size[2])
