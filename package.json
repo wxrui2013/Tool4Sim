@@ -1,0 +1,17 @@
+{
+  "name": "useful-code-repository",
+  "version": "1.0.0",
+  "description": "A repository for sharing useful Python code snippets",
+  "main": "main.py",
+  "scripts": {
+    "test": "python -m pytest tests/"
+  },
+  "keywords": [
+    "python",
+    "code",
+    "snippets",
+    "utilities"
+  ],
+  "author": "",
+  "license": "MIT"
+}
