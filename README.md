@@ -1,4 +1,5 @@
 # Useful Code Repository
+# This is a repository to share some useful Tool for molecular dynamics / Monte Carlo simulations
 
 这是一个分享有用Python代码的库。
 
