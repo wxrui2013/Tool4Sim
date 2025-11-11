@@ -17,15 +17,28 @@ tests/        # 测试代码
 
 ## 安装依赖
 
+使用conda创建环境（推荐）：
+
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate useful-code-repo
+```
+
+或者使用pip安装：
+
+```bash
+pip install pytest>=6.0.0
 ```
 
 ## 运行示例
 
+运行随机结构生成示例：
+
 ```bash
 python examples/example_usage.py
 ```
+
+这将生成一个包含20个原子的测试结构，其中Ti原子占70%，Al原子占30%。生成的结构将保存为`test_structure.data`文件，格式为LAMMPS数据文件。
 
 ## 运行测试
 

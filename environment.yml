@@ -1,0 +1,10 @@
+name: useful-code-repo
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - pip
+  - pytest>=6.0.0
+  - numpy
+  - scipy
